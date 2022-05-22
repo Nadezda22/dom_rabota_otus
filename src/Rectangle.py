@@ -2,7 +2,7 @@ from Figure import Figure
 
 
 class Rectangle(Figure):
-    def __init__(self, a, b, name ="Rectangle"):
+    def __init__(self, a, b, name="Rectangle"):
         super().__init__(self, a, b)
         self.a = 10
         self.b = 12
