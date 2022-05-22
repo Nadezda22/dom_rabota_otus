@@ -9,3 +9,4 @@ class Circle(Figure):
     @property
     def perimetr(self) -> int:
         return self.radius * 2
+
