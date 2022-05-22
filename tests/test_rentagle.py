@@ -3,6 +3,7 @@ from class Figure import class Figure
 
 from class Rectangle import class Rectangle
 
+
 class Test_Rectangle:
     def test_create_rectangle(self):
         rectangle == Rectangle(10, 12)
