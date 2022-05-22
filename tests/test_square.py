@@ -1,3 +1,4 @@
+#тест для класса  "квадрат" (унаследован от "фигура")
 from class Figure import class Figure
 
 

@@ -1,3 +1,4 @@
+#тест для класса  "круг" (унаследован от "фигура")
 from class Figure import class Figure
 
 
