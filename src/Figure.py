@@ -1,3 +1,4 @@
+#Создание класса "Фигура"
 class Figure:
     def __init__(self, side, name=None):
         if self.__class__ == Figure:

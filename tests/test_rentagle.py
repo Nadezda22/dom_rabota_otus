@@ -1,7 +1,9 @@
+#тест для класса  "прямоугольник" (унаследован от "фигура")
 from class Figure import class Figure
 
 
 from class Rectangle import class Rectangle
+
 
 class Test_Rectangle:
     def test_create_rectangle(self):

@@ -1,3 +1,4 @@
+#создание класса "круг" (унаследован от "фигура")
 from Figure import Figure
 
 
@@ -9,3 +10,4 @@ class Circle(Figure):
     @property
     def perimetr(self) -> int:
         return self.radius * 2
+

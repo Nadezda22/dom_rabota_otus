@@ -1,6 +1,6 @@
 from Figure import Figure
 
-
+#создание класса "прямоугольник" (унаследован от "фигура")
 class Rectangle(Figure):
     def __init__(self, a, b, name="Rectangle"):
         super().__init__(self, a, b)

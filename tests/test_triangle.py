@@ -1,3 +1,4 @@
+#тест для класса  "треугольник" (унаследован от "фигура")
 from class Figure import class Figure
 
 
