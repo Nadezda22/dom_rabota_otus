@@ -1,23 +1,22 @@
-#тест для класса  "треугольник" (унаследован от "фигура")
-from class Figure import class Figure
+# тест для класса  "треугольник" (унаследован от "фигура")
 
-
-from class Triangle import class Triangle
+from src.Figure import Figure
+from src.Triangle import Triangle
 
 
 class Test_Triangle:
     def test_create_triangle(self):
-        triangle = Triangle(13, 15, 14)
+        triangle = Triangle(a, b, c)
         assert isinstance(Triangle, Figure)
         assert isinstance(triangle, Triangle)
         assert triangle.name == "Triangle"
-        assert triangle.a == 13
-        assert triangle.b == 15
-        assert triangle.c == 14
+        assert triangle.a == a
+        assert triangle.b == b
+        assert triangle.c == c
 
     def test_perimetr_triangle(self):
-        triangle == Triangle(13, 15, 14)
-        assert triangle.perimetr == 42
+        triangle == Triangle(a, b, c)
+        assert triangle.perimetr == a + b + c
 
-    def test_test_area_triangle(self):
-        assert triangle.area == 84
+    def test_area_triangle(self):
+        assert triangle.area == a * b * c
