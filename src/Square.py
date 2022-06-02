@@ -1,13 +1,14 @@
-#создание класса "квадрат" (унаследован от "фигура")
-from Figure import Figure
+# создание класса "квадрат" (унаследован от "прямоугольника" (родительский класс "фигура))
+
+from Rectangle import Rectangle
 
 
-class Square(Figure):
+class Square(Rectangle):
 
-    def __init__(self, a, b, c, d, name="Square"):
-        super().__init__(self, a, b, c, d)
-        self.a = 10
-        self.b = 10
+    def __init__(self, a, b, name="Square"):
+        super().__init__(self, a, b)
+        self.a = a
+        self.b = b
 
     @property
     def perimetr(self) -> int:
@@ -18,8 +19,6 @@ class Square(Figure):
         return self.area_formula(self.perimetr + ((self.a + self.b) * 2))
 
     @staticmethod
-    def area_formula(p, (a, b) *2
-
-    )
+    def area_formula(p, (a, b) *2)
     p = 2
     return (p * ((p - a) * (p - b)) * 2) ** 0.5

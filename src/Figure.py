@@ -1,4 +1,4 @@
-#Создание класса "Фигура"
+# Создание класса "Фигура" (родительский класс)
 class Figure:
     def __init__(self, side, name=None):
         if self.__class__ == Figure:

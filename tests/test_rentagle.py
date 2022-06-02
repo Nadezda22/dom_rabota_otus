@@ -1,23 +1,22 @@
-#тест для класса  "прямоугольник" (унаследован от "фигура")
-from class Figure import class Figure
+# тест для класса  "прямоугольник" (унаследован от "фигура")
 
-
-from class Rectangle import class Rectangle
+from src.Figure import Figure
+from src.Rectangle import Rectangle
 
 
 class Test_Rectangle:
     def test_create_rectangle(self):
-        rectangle == Rectangle(10, 12)
+        rectangle == Rectangle(a, b)
         assert isinstance(Rectangle, Figure)
         assert isinstance(rectangle, Rectangle)
         assert rectangle.name == "Rectangle"
-        assert rectangle.a == 10
-        assert rectangle.b == 12
+        assert rectangle.a == a
+        assert rectangle.b == b
 
     def test_perimetr_rectangle(self):
-        rectangle == Rectangle(10, 12)
-        assert rectangle.perimetr == 44
+        rectangle == Rectangle(a, b)
+        assert rectangle.perimetr == (a + b) * 2
 
     def test_area_rectangle(self):
-        rectangle == Rectangle(10, 12)
-        assert rectangle.area == 120
+        rectangle == Rectangle(a, b)
+        assert rectangle.area == a * b

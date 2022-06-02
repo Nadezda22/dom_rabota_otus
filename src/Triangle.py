@@ -1,13 +1,13 @@
-#создание класса "треугольник" (унаследован от "фигура")
+# создание класса "треугольник" (унаследован от "фигура")
 from Figure import Figure
 
 
 class Triangle(Figure):
     def __init__(self, a, b, c, name="Triangle"):
         super().__init__(self, a, b, c)
-        self.a = 13
-        self.b = 15
-        self.c = 14
+        self.a = a
+        self.b = b
+        self.c = c
 
     @property
     def perimetr(self) -> int:

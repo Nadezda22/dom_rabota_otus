@@ -1,23 +1,22 @@
-#тест для класса  "квадрат" (унаследован от "фигура")
-from class Figure import class Figure
+# тест для класса  "квадрат" (унаследован от "фигура")
+from src.Figure import Figure
+
+from src.Square import Square
 
 
-from class Square import class Square
-
-
-class Test_Square class Test_Rectangle:
+class Test_Square class Test_Square:
     def test_create_square(self):
-        square == Square(10, 10)
+        square == Square(a, b)
         assert isinstance(Square, Figure)
         assert isinstance(square, Square)
         assert square.name == "Square"
-        assert square.a == 10
-        assert square.b == 10
+        assert square.a == a
+        assert square.b == b
 
     def test_perimetr_square(self):
-        square == Square(10, 10)
-        assert square.perimetr == 40
+        square == Square(a, b)
+        assert square.perimetr == (a + b) * 2
 
     def test_area_square(self):
-        square == Square(10, 10)
-        assert square.area == 1000
+        square == Square(a, b)
+        assert square.area == a * 4
